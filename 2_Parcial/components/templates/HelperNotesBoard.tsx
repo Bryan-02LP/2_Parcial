@@ -7,10 +7,6 @@ interface HelperNotesBoardProps {
 export default function HelperNotesBoard({ notes }: HelperNotesBoardProps) {
   return (
     <div className="min-h-screen bg-[#E8E8E8] flex flex-col items-center py-12 px-4 gap-8">
-      <h1 className="text-xl font-bold text-gray-600 tracking-wide uppercase">
-        Jira Helper Cards
-      </h1>
-
       <div className="flex flex-col gap-6 w-full max-w-md">
         {notes.map((note, idx) => (
           <div key={idx} className="flex flex-col gap-1">
