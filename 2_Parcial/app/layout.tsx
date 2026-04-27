@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Jira Helper Cards",
-  description: "2do Parcial - Programacion Avanzada",
-};
+
 
 export default function RootLayout({
   children,
