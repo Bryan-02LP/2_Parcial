@@ -5,7 +5,6 @@ interface NoteBodyProps {
   lastUpdated: string;
   muted?: boolean;
 }
-
 export default function NoteBody({ description, lastUpdated, muted = false }: NoteBodyProps) {
   return (
     <div className="px-4 pt-4 pb-4 bg-white rounded-b-xl flex flex-col gap-3">

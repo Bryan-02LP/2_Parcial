@@ -9,7 +9,6 @@ interface NoteHeaderProps {
   issueId: string;
   variant: NoteVariant;
 }
-
 const headerColors: Record<NoteVariant, string> = {
   active:    "bg-[#E05252]",
   future:    "bg-[#7B4FBE]",
