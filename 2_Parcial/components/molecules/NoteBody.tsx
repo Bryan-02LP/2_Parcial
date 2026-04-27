@@ -1,5 +1,4 @@
 import NoteLabel from "@/components/atoms/NoteLabel";
-
 interface NoteBodyProps {
   description: string;
   lastUpdated: string;

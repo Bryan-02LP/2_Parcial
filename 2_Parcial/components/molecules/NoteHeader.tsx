@@ -1,6 +1,5 @@
 import NoteNumber from "@/components/atoms/NoteNumber";
 import JiraLogo from "@/components/atoms/JiraLogo";
-
 type NoteVariant = "active" | "future" | "completed";
 
 interface NoteHeaderProps {
