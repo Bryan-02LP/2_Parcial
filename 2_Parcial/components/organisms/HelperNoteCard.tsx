@@ -2,7 +2,6 @@ import NoteHeader from "@/components/molecules/NoteHeader";
 import NoteBody from "@/components/molecules/NoteBody";
 
 export type NoteVariant = "active" | "future" | "completed";
-
 export interface HelperNoteCardProps {
   number: number;
   topic: string;
@@ -11,7 +10,6 @@ export interface HelperNoteCardProps {
   lastUpdated: string;
   variant: NoteVariant;
 }
-
 export default function HelperNoteCard({
   number,
   topic,
